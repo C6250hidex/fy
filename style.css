@@ -20,11 +20,11 @@ main {
   justify-content: center;
 }
 .form-dtyle {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-  min-height: 100vh; */
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
 .containers {
   display: flex;
@@ -373,7 +373,7 @@ input[type="file"] {
     display: none;
   }
   #poster-canvas {
-    /* transform: scale(0.6); */
+    transform: scale(0.6);
     transform-origin: top center;
     margin-top: 150px;
   }
