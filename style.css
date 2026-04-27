@@ -13,6 +13,11 @@ body {
   background-color: var(--bg-soft);
   color: var(--text-dark);
 }
+h1,
+h2,
+h3 {
+  font-family: "monstserrat", sans-serif;
+}
 main {
   display: flex;
   flex-direction: column;
@@ -182,12 +187,6 @@ input[type="file"] {
   background: #d1d5db;
   border-radius: 10px;
 }
-:root {
-  --mouau-green: #1b5e20;
-  --accent-yellow: #ffd600;
-  --bg-soft: #f4f7f6;
-  --text-dark: #1a1a1a;
-}
 
 /* --- Poster Styling --- */
 #poster-canvas {
@@ -245,8 +244,8 @@ input[type="file"] {
   color: #444;
 }
 .fyb-year {
-  font-size: 30px;
-  font-weight: 900;
+  font-size: 40px;
+  font-weight: bolder;
   margin: 0;
   line-height: 1;
   font-family: "Courier New", Courier, monospace;
@@ -274,7 +273,7 @@ input[type="file"] {
   font-weight: bold;
 }
 .finalist-text {
-  font-size: 40px;
+  font-size: 50px;
   font-weight: bolder;
   color: var(--mouau-green);
   font-family: "Courier New", Courier, monospace;
@@ -329,23 +328,23 @@ input[type="file"] {
 .details-list {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 5px;
   font-size: 10px;
   border-left: 2px solid #f0f0f0;
-  padding-left: 15px;
+  padding-left: 10px;
 }
 .detail-row b {
   display: block;
-  color: #777;
+  color: #000;
+  font-weight: bolder;
   text-transform: uppercase;
-  font-size: 8px;
+  font-size: 10px;
   margin-bottom: 1px;
 }
 .detail-row p {
   margin: 0;
-  font-weight: 600;
-  color: #000;
-  font-size: 11px;
+  color: #000000d0;
+  font-size: 12px;
   line-height: 1.2;
 }
 
