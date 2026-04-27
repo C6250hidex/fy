@@ -58,29 +58,13 @@ function updateImage(input) {
 }
 
 // Generate and Download Image
-// function download() {
-//   const card = document.getElementById("poster-canvas");
-
-//   html2canvas(card, { scale: 5, useCORS: true }).then((canvas) => {
-//     const link = document.createElement("a");
-//     link.download = "Finalist-Card-2026.png";
-//     ((link.href = canvas.toDataURL("image/png")), 1.0);
-//     link.click();
-//   });
-// }
-
 function download() {
   const card = document.getElementById("poster-canvas");
 
-  html2canvas(card, {
-    scale: 3,
-    useCORS: true,
-    width: card.offsetWidth,
-    height: card.offsetHeight,
-  }).then((canvas) => {
+  html2canvas(card, { scale: 5, useCORS: true }).then((canvas) => {
     const link = document.createElement("a");
     link.download = "Finalist-Card-2026.png";
-    link.href = canvas.toDataURL("image/png");
+    ((link.href = canvas.toDataURL("image/png")), 1.0);
     link.click();
   });
 }
